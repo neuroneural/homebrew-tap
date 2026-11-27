@@ -1,20 +1,20 @@
 class Brainchop < Formula
   desc "Fast, zero-dependency neuroimaging segmentation and skull stripping"
   homepage "https://brainchop.org"
-  version "1.1.1"
+  version "1.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/neuroneural/brainchop-core/releases/download/v1.1.1/brainchop-1.1.1-macos-arm64.tar.gz"
-      sha256 "7ea849a10502b727b6cafa11ba64647a44551cce28b1a0b60517b74931baa50f"
+      url "https://github.com/neuroneural/brainchop-core/releases/download/v1.1.2/brainchop-1.1.2-macos-arm64.tar.gz"
+      sha256 "f8b8657352f267fc71d18668be0bb7606bbba3a2a43f5a39e38b19858294c2a3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/neuroneural/brainchop-core/releases/download/v1.1.1/brainchop-1.1.1-linux-x86_64.tar.gz"
-      sha256 "3223fa6ceb159f26d9e0fd5e011e193b5bc0b3d4cc1ba83449e0a59b4f6505b3"
+      url "https://github.com/neuroneural/brainchop-core/releases/download/v1.1.2/brainchop-1.1.2-linux-x86_64.tar.gz"
+      sha256 "85af58a30217fbb42a29058d817fc63378526d588bec76ae022f19fc1b2f4e0d"
     end
   end
 
