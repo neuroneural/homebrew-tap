@@ -26,4 +26,4 @@ brew install brainchop
 ## Supported Platforms
 
 - **macOS (Apple Silicon / arm64):** macOS 13.2+ with Apple Metal acceleration and multi-threaded CPU (Apple SME / NEON).
-- **Linux (x86_64):** glibc 2.28+ with embedded NVIDIA CUDA Driver API modules (`sm70`–`sm120` + `compute_80` PTX, Driver API >= 12.8, no CUDA Toolkit needed) and multi-threaded AVX2+FMA CPU.
+- **Linux (x86_64):** glibc 2.28+ with embedded NVIDIA CUDA Driver API modules (`sm60`–`sm90` native cubins + `compute_90` PTX for forward JIT, Driver API >= 12.8, no CUDA Toolkit needed), embedded AMD HIP (`gfx1151`), and multi-threaded AVX2+FMA CPU.

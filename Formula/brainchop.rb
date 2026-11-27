@@ -1,7 +1,6 @@
 class Brainchop < Formula
   desc "Fast, zero-dependency neuroimaging segmentation and skull stripping"
   homepage "https://brainchop.org"
-  version "1.1.2"
   license "MIT"
 
   on_macos do
